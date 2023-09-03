@@ -1,0 +1,9 @@
+{
+	"name": "ziyodullo-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3ba56ca3-8db1-4bb3-a460-5ca74a682ce3",
+		"tenantId": "64ec7892-e353-4a6e-a7fb-9ab7ddf70581"
+	}
+}

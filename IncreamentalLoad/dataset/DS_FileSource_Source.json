@@ -1,0 +1,36 @@
+{
+	"name": "DS_FileSource_Source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_GeneralSQLServer",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "IncreamentalLoad"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "FileId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "FileName",
+				"type": "varchar"
+			},
+			{
+				"name": "LastModifiedDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "File_Source"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "SQL_MAXValue",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_GeneralSQLServer",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "IncreamentalLoad"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
